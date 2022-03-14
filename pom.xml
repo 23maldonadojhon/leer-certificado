@@ -3,4 +3,22 @@
   <groupId>com.example</groupId>
   <artifactId>leer-certificado</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  	<dependencies>
+  	<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
+		<dependency>
+		    <groupId>org.bouncycastle</groupId>
+		    <artifactId>bcprov-jdk15on</artifactId>
+		    <version>1.70</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcpkix-jdk15on -->
+		<dependency>
+		    <groupId>org.bouncycastle</groupId>
+		    <artifactId>bcpkix-jdk15on</artifactId>
+		    <version>1.70</version>
+		</dependency>
+
+	</dependencies>  
+	
 </project>
